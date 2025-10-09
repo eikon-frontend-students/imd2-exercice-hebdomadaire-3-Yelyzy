@@ -12,3 +12,21 @@ img,
 video {
   display: block;
 }
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.inscription {
+  transform: rotate(-4deg);
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #f124f2;
+  font-size: 22px;
+  color: #fff;
+  box-shadow: 0 7px 0 0 #a819a8;
+  border: none;
+  padding: 30px 45.3px;
+}
