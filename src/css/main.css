@@ -14,19 +14,28 @@ video {
 }
 
 body {
+}
+
+button {
+  color: #fff;
   font-family: "Lato", sans-serif;
+  font-size: 22px;
+  border: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .inscription {
   transform: rotate(-4deg);
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
   border-radius: 10px;
   background: #f124f2;
-  font-size: 22px;
-  color: #fff;
   box-shadow: 0 7px 0 0 #a819a8;
-  border: none;
-  padding: 30px 45.3px;
+  padding: 27px 43.5px;
+}
+
+.newsletter {
+  transform: rotate(6deg);
+  border-radius: 35px;
+  background: #684bd4;
+  padding: 22px 39px;
 }
