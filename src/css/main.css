@@ -4,19 +4,19 @@
   padding: 0;
 }
 
-a {
-  color: inherit;
-}
-
-img,
-video {
-  display: block;
-}
-
 body {
 }
 
-button {
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 65px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+button.btn {
   color: #fff;
   font-family: "Lato", sans-serif;
   font-size: 22px;
